@@ -89,14 +89,53 @@ const print = (x) => {
 
 // print(sum);
 
-let i = 1;
-let n = 10;
-let sum = 0;
+// let i = 1;
+// let n = 10;
+// let sum = 0;
 
-while (i <= n) {
-  sum = sum + i;
+// while (i <= n) {
+//   sum = sum + i;
 
-  i++;
-}
+//   i++;
+// }
 
-print(sum);
+// print(sum);
+
+// Write a JavaScript for loop that iterates
+//  from 0 to 15.
+//  For each iteration, it checks if the current
+//   number is odd or even and displays a
+//   message on the screen.
+// Sample Output :
+
+// "1 is odd"
+// "2 is even"
+
+// let i = 0;
+// while (i < 16) {
+// check whether  i is odd or even
+//   const rem = i % 2;
+
+//   if (rem === 0) {
+//     console.log(`${i} is even`);
+//   } else {
+//     console.log(`${i} is odd`);
+//   }
+
+//   i++;
+// }
+
+// Write a JS code to calculate the sum of digits in a number
+// 1234 =>1+2+3+4 =10
+
+// let num = 12345;
+// let n = num;
+// let sum = 0;
+
+// while (n != 0) {
+//   const rem = n % 10;
+//   sum = sum + rem;
+//   n = Math.floor(n / 10);
+// }
+
+// console.log(`Sum of digits in ${num} => ${sum}`);
