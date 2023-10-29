@@ -16,5 +16,3 @@
 
 // let y = null || 10;
 // console.log(y);
-
-// TODO: truthy and falsy values
