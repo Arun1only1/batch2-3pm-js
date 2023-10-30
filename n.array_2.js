@@ -30,7 +30,7 @@
 // !splice
 // !fill
 
-const priceList = [100, 200, 10, 50, 55, 500];
+// const priceList = [100, 200, 10, 50, 55, 500];
 // ? applies loop in array
 // ?map => returns new array, length of original array and returned array is same
 // => problem is: we need to hike price of every product by 10
@@ -60,7 +60,109 @@ const priceList = [100, 200, 10, 50, 55, 500];
 // console.log(newPriceList);
 
 // ?filter=> returns new array, most of times  length of original array and returned array is different
-// find
+// ?=> filter out based upon certain condition
+
+// const numList = [-1, -11, 1, 10, 7, 5, 0];
+
+// const newNumList = numList.filter((item, index, self) => item >= 0);
+
+// console.log(newNumList);
+
+// ?find
+// ? finds first item/element satisfying given condition
+
+// const priceList = [1, 2, 3, 4, 5, 6, 55, 65];
+
+// const item = priceList.find((item, index, self) => {
+//   return item > 62;
+// });
+
+// console.log({ item });
 // findIndex
-// some
-// every
+
+// const item = priceList.findIndex((item, index, self) => {
+//   return item > 50;
+// });
+
+// console.log(item);
+
+// some => returns true if any item satisfies the condition
+const numList = [1, 2, 5, 6, 7, -5, -7];
+
+// const value = numList.some((item, index, self) => {
+//   return item > 0;
+// });
+
+// console.log(value);
+
+// every => returns true if every item satisfies the condition
+// const value = numList.every((item, index, self) => {
+//   return item > 0;
+// });
+
+// console.log(value);
+
+const laptops = [
+  {
+    name: "Inspiron 3511",
+    price: 55000,
+    brand: "dell",
+  },
+  {
+    name: "Acer Nitro",
+    price: 109000,
+    brand: "acer",
+  },
+  {
+    name: "TUF F15",
+    price: 205000,
+    brand: "asus",
+  },
+  {
+    name: "Vivobook",
+    price: 76000,
+    brand: "asus",
+  },
+  {
+    name: "Aspire 5",
+    price: 87500,
+    brand: "acer",
+  },
+  {
+    name: "Modern 14",
+    price: 92000,
+    brand: "msi",
+  },
+  {
+    name: "Thinkpad X13",
+    price: 149000,
+    brand: "lenovo",
+  },
+
+  {
+    name: "TUF F15",
+    price: 205000,
+    brand: "asus",
+  },
+  {
+    name: "Legion 5 PRO",
+    price: 188000,
+    brand: "lenovo",
+  },
+  {
+    name: "Predator Helios 300",
+    price: 169000,
+    brand: "acer",
+  },
+  {
+    name: "GP66 Leopard",
+    price: 199000,
+    brand: "msi",
+  },
+];
+
+// ?decrease price of each laptop by 10K
+// ?find laptop named "TUF F15"
+// ? is all laptop priced below 2lakh
+// ?find index of laptop named "Vivobook"
+// ?return msi laptops only
