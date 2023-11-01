@@ -176,3 +176,17 @@
 // };
 
 // print("Hello mom");
+
+// ?rest operator => collector
+
+// const sum = (a, ...otherValues) => {
+//   let total = 0;
+
+//   otherValues.forEach((item, index, self) => {
+//     total = total + item;
+//   });
+
+//   return total + a;
+// };
+// const res = sum(2, 4, 5, 6, 1, 2);
+// console.log(res);

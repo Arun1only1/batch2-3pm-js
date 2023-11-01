@@ -166,3 +166,48 @@ const laptops = [
 // ? is all laptop priced below 2lakh
 // ?find index of laptop named "Vivobook"
 // ?return msi laptops only
+
+// let x = 21;
+
+// let foo = function () {
+//   console.log(x);
+
+//   let x = 20;
+// };
+
+// foo();
+
+// const person = (fn, ln) => ({ f: fn, l: ln });
+
+// console.log(person("Arun", "Chap"));
+
+const guessIt = {
+  2: "e",
+  5: "t",
+  1: "r",
+  4: "c",
+  3: "a",
+};
+console.log(guessIt[1]);
+
+// const res = Object.values(guessIt).reduce((agg, el) => agg + el, "p");
+// console.log(res);
+// let num = [10, 2, 3, 9, 105];
+
+// const n = num.reduce((a, b) => (a > b ? a : b));
+// console.log(n);
+
+// let num = [1, 2, 3, 4];
+
+// const arr = num.map((item) => {
+//   if (item % 2 === 0) {
+//     return item * 2;
+//   }
+// });
+
+// console.log(arr);
+
+// console.log("A")
+// setImmediate(()=> console.log("B"))
+// process.nextTick(()=>console.log("C"))
+// console.log("D")
